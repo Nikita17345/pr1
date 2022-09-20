@@ -37,8 +37,9 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Id: " + this.id + "\tFullName: " + this.name + " " + this.surname + "\tSalary: " + this.salary;
+        return getClass().getName() + " Id: " + this.id + "; FullName: " + this.name + " " + this.surname + "; Salary: " + this.salary + ";";
     }
+
 
     public int getId() {
         return id;
